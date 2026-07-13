@@ -211,19 +211,7 @@ http://localhost:8080/v3/api-docs
 
 ---
 
-```
-## 📸 Screenshots
 
-Add screenshots such as:
-
-* Swagger UI
-* Login API
-* Register API
-* Product APIs
-* Category APIs
-* MySQL Database Tables
-* Postman Collection
-```
 
 ---
 
