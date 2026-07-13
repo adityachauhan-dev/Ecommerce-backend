@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Backend API
+# 🛒 E-Commerce Backend APP
 
 A robust RESTful E-Commerce Backend built using **Spring Boot**, **Spring Security**, **JWT Authentication**, **Spring Data JPA**, and **MySQL**. The project provides secure authentication and complete APIs for managing users, products, categories, carts, orders, payments, reviews, and addresses.
 
@@ -56,7 +56,6 @@ A robust RESTful E-Commerce Backend built using **Spring Boot**, **Spring Securi
 
 ## 📂 Project Structure
 
-```text
 src
  ├── config
  ├── controller
@@ -71,7 +70,6 @@ src
  ├── security
  ├── service
  └── resources
-```
 
 ---
 
@@ -171,29 +169,22 @@ src
 
 ### Clone Repository
 
-```bash
+
 git clone https://github.com/adityachauhan-dev/Ecommerce-backend.git
-```
 
 ### Navigate to Project
 
-```bash
 cd Ecommerce-backend
-```
 
 ### Configure Application
 
 Copy:
 
-```text
 application-example.properties
-```
 
 to
 
-```text
 application.properties
-```
 
 Update the following values:
 
@@ -204,9 +195,7 @@ Update the following values:
 
 ### Run Project
 
-```bash
 mvn spring-boot:run
-```
 
 ---
 
@@ -214,18 +203,15 @@ mvn spring-boot:run
 
 Swagger UI
 
-```text
 http://localhost:8080/swagger-ui/index.html
-```
 
 OpenAPI JSON
 
-```text
 http://localhost:8080/v3/api-docs
-```
 
 ---
 
+```
 ## 📸 Screenshots
 
 Add screenshots such as:
@@ -237,6 +223,7 @@ Add screenshots such as:
 * Category APIs
 * MySQL Database Tables
 * Postman Collection
+```
 
 ---
 
