@@ -1,77 +1,100 @@
-# 🛒 E-Commerce Backend APP
+# 🛒 Spring Boot E-Commerce Backend REST API
 
-A robust RESTful E-Commerce Backend built using **Spring Boot**, **Spring Security**, **JWT Authentication**, **Spring Data JPA**, and **MySQL**. The project provides secure authentication and complete APIs for managing users, products, categories, carts, orders, payments, reviews, and addresses.
-
----
-
-## 🚀 Features
-
-* JWT Authentication & Authorization
-* User Registration & Login
-* Role-Based Security
-* Product Management (CRUD)
-* Category Management
-* Brand Management
-* Shopping Cart
-* Order Management
-* Payment Management
-* Product Reviews & Ratings
-* User Address Management
-* Global Exception Handling
-* DTO-Based Request & Response
-* Swagger API Documentation
-* Spring Data JPA & Hibernate
-* MySQL Database Integration
+A secure and scalable E-Commerce Backend REST API built using Java, Spring Boot, Spring Security, JWT Authentication, Spring Data JPA, Hibernate, MySQL, and Swagger/OpenAPI.
 
 ---
 
-## 🛠️ Tech Stack
+# 📌 Overview
+
+This project provides a complete backend solution for an E-Commerce application. It includes secure authentication, product management, shopping cart, order processing, payment management, reviews, and address management using REST APIs.
+
+---
+
+# ✨ Features
+
+- 🔐 JWT Authentication & Authorization
+- 👤 User Registration & Login
+- 🛍️ Product Management
+- 📂 Category Management
+- 🏷️ Brand Management
+- 🛒 Shopping Cart
+- 📦 Order Management
+- 💳 Payment Management
+- ⭐ Product Reviews & Ratings
+- 📍 Address Management
+- 📄 Swagger API Documentation
+- ⚠️ Global Exception Handling
+- 📁 DTO Architecture
+- 🗄️ MySQL Database Integration
+
+---
+
+# 🛠 Tech Stack
 
 ### Backend
-
-* Java 21
-* Spring Boot
-* Spring Security
-* JWT
-* Spring Data JPA
-* Hibernate
-* Maven
+- Java
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- Hibernate
+- REST API
+- JWT Authentication
+- Swagger / OpenAPI
 
 ### Database
+- MySQL
 
-* MySQL
-
-### Documentation
-
-* Swagger / OpenAPI
+### Build Tool
+- Maven
 
 ### Tools
-
-* Eclipse IDE
-* Git
-* GitHub
-* Postman
+- Eclipse IDE
+- Postman
+- Git & GitHub
 
 ---
 
-## 📂 Project Structure
+# 🏗 Project Architecture
+
+Controller
+      │
+      ▼
+Service
+      │
+      ▼
+Repository
+      │
+      ▼
+MySQL Database
+
+---
+
+# 📂 Project Structure
 
 src
- ├── config
  ├── controller
- ├── dto
- │    ├── request
- │    ├── response
- │    └── auth
- ├── entity
- ├── enums
- ├── exception
- ├── repository
- ├── security
  ├── service
+ ├── repository
+ ├── entity
+ ├── dto
+ ├── security
+ ├── config
+ ├── exception
+ ├── enums
  └── resources
 
 ---
+
+# 🔐 Authentication
+
+- Register User
+- Login User
+- JWT Token Generation
+- Role-Based Authorization
+- Secure API Access
+
+---
+
 
 ## 🔐 Authentication APIs
 
@@ -211,9 +234,6 @@ http://localhost:8080/v3/api-docs
 
 ---
 
-
-
----
 
 ## 👨‍💻 Author
 
